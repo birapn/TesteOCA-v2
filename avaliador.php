@@ -191,6 +191,6 @@ if ($i >69 AND $h <20)
 $isuppress = 1;
 $hsuppress = 1;}
 
-include "novacoluna.inc";
+include "novacoluna.php";
 }
 ?>
