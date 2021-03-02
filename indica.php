@@ -4,7 +4,7 @@
 
 //CABEÇALHO
 
-include "header.inc";
+include "header.php";
 
 $opiniao = $_POST['opiniao'];
 $conheci = $_POST['conhecipor'];
@@ -12,7 +12,7 @@ $conheci = $_POST['conhecipor'];
 
 
 
-<p><center><br><br><font face=arial><font color=cc0000 size=5><b>INDIQUE ESTE TESTE PARA UM(A) AMIGO(A)</b></font><br><br>
+<p><br>INDIQUE ESTE TESTE PARA UM(A) AMIGO(A)<br>
 
 
 
@@ -29,51 +29,47 @@ $conheci = $_POST['conhecipor'];
 
 
 
-<table align='center' border=0>
+<table>
 
 <?php
 
 if ($nome1 == null)
 
-{echo "<tr height=30><td><font face=verdana size=2><font color=red>Nome: </font>";}
+{echo "Nome: ";}
 
 else 
 
-{echo "<tr height=30><td><font face=verdana size=2>Nome: ";}
+{echo "Nome: ";}
 
 echo "
 
-<input style='width: 120px; height: 20px;' maxlength='150' size='52' name='nome' value='$nome1'>
+<input maxlength='150' size='52' name='nome' value='$nome1'>
 
-&nbsp;Sobrenome: <input style='width: 122px; height: 20px;' maxlength='150' size='52' name='sobrenome' value='$sobrenome1'></td></tr>
+Sobrenome: <input maxlength='150' size='52' name='sobrenome' value='$sobrenome1'>
 
-<tr height=30><td><font face=verdana size=2>
+Telefone: <input maxlength='11' size='13' name='fone' value='$fone1'>
 
-Telefone: <input style='width: 88px; height: 20px;' maxlength='11' size='13' name='fone' value='$fone1'>
-
-Telefone (Celular): <input style='width: 93px; height: 20px;' maxlength='11' size='13' name='fonecel' value='$fonecel1'></td></tr>
+Telefone (Celular): <input maxlength='11' size='13' name='fonecel' value='$fonecel1'>
 
 ";
 
 if ($mail == null)
 
-{echo "<tr height=30><td><font face=verdana size=2><font color=red>E-mail: </font>";}
+{echo "E-mail: ";}
 
 else 
 
-{echo "<tr height=30><td><font face=verdana size=2>E-mail: ";}
+{echo "E-mail: ";}
 
 echo "
 
-<input style='width: 332px; height: 20px;' size='23' name='mail' value='$mail1'></td></tr>
-
-<tr height=30><td>
+<input size='23' name='mail' value='$mail1'>
 
 <center>
 
 <input type=submit value='Enviar dados'>
 
-</center></td></tr></table></form>";
+</form>";
 
 
 
@@ -85,7 +81,7 @@ echo "
 
 //RODAPÉ
 
-include "footer.inc";
+include "footer.php";
 
 
 
