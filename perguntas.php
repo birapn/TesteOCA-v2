@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $p1 = "Você faz observações ou acusações impensadas que mais tarde lamenta?";
 $p2 = "Permanece sereno quando os outros estão nervosos?";
 $p3 = "Você consulta horários de trens, listas telefônicas ou dicionários só por prazer?";
