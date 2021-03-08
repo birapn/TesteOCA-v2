@@ -1,6 +1,7 @@
 # Logs
 logs
 *.log
+error_log
 
 # MacOS system files
 .DS_Store
