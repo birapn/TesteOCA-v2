@@ -47,105 +47,105 @@ echo "<title>Resultado do Seu teste de Personalidade</title>";
 echo "<table width=500 border=0 align=center><tr><td><font face=verdana>
 <b><center><font size=2 color=green>Anote os resultados ACIMA para <br> comparar com um futuro teste.</font></center></b>";
 
-//ESTÁVEL X INSTÁVEL
+//ESTï¿½VEL X INSTï¿½VEL
 if ($a >0 and $asuppress ==0){echo "
-<br><img align=left src='good.jpg'><font size=2 color=green><strong>PONTO POSITIVO - Estável, orientado</strong></font>
+<br><img align=left src='good.jpg'><font size=2 color=green><strong>PONTO POSITIVO - Estï¿½vel, orientado</strong></font>
 <font size=1>
-<br>Você está com bons padrões, sabe o que quer ser. Tem bons dados estáveis e pode levar planos à completação.<br></font>";}
+<br>Vocï¿½ estï¿½ com bons padrï¿½es, sabe o que quer ser. Tem bons dados estï¿½veis e pode levar planos ï¿½ completaï¿½ï¿½o.<br></font>";}
 elseif ($a <1 and $asuppress ==0){echo "
-<br><img align=left src='cancel.jpg'><font size=2 color=red><strong>PONTO A MELHORAR - Instável, impulsivo, disperso</strong></font>
+<br><img align=left src='cancel.jpg'><font size=2 color=red><strong>PONTO A MELHORAR - Instï¿½vel, impulsivo, disperso</strong></font>
 <font size=1>
-<br>Você não está tomando decisões com facilidade. Não está se preocupando com coisas como o dinheiro, saúde e posses. Está tendo dificuldades em começar coisas em geral e pode falhar ao cumprir compromissos.<br></font>";}
+<br>Vocï¿½ nï¿½o estï¿½ tomando decisï¿½es com facilidade. Nï¿½o estï¿½ se preocupando com coisas como o dinheiro, saï¿½de e posses. Estï¿½ tendo dificuldades em comeï¿½ar coisas em geral e pode falhar ao cumprir compromissos.<br></font>";}
 
 //FELIZ X TRISTE
 if ($b >0 and $bsuppress==0){echo "
 <br><img align=left src='good.jpg'><font size=2 color=green><strong>PONTO POSITIVO - Feliz</strong></font>
 <font size=1>
-<br>Você está alegre, sente-se bem e tem disposição para sorrir. Você têm considerado que existem muitas oportunidades e está atingindo seus objetivos.<br></font>";}
+<br>Vocï¿½ estï¿½ alegre, sente-se bem e tem disposiï¿½ï¿½o para sorrir. Vocï¿½ tï¿½m considerado que existem muitas oportunidades e estï¿½ atingindo seus objetivos.<br></font>";}
 elseif ($b <1 and $bsuppress ==0){echo "
 <br><img align=left src='cancel.jpg'><font size=2 color=red><strong>PONTO A MELHORAR - Infeliz, deprimido</strong></font>
 <font size=1>
-<br>Você não está alegre e está perturbado por problemas passados. Tem tido sonhos desagradáveis Não está atingindo suas metas e tem pensado muito em desgostos e doenças.<br></font>";}
+<br>Vocï¿½ nï¿½o estï¿½ alegre e estï¿½ perturbado por problemas passados. Tem tido sonhos desagradï¿½veis Nï¿½o estï¿½ atingindo suas metas e tem pensado muito em desgostos e doenï¿½as.<br></font>";}
 
 //CALMO X NERVOSO
 if ($c >0 and $csuppress ==0){echo "
 <br><img align=left src='good.jpg'><font size=2 color=green><strong>PONTO POSITIVO - Calmo</strong></font>
 <font size=1>
-<br>Você é relaxado, calmo, não tem fobias e dorme bem. Tem um bom controle da voz e dos músculos. Você não se surpreende com facilidade, dorme bem à noite e volta ao normal rapidamente depois de um desapontamento. Não tem habitos nervosos e não se distraí com facilidade.<br></font>";}
+<br>Vocï¿½ ï¿½ relaxado, calmo, nï¿½o tem fobias e dorme bem. Tem um bom controle da voz e dos mï¿½sculos. Vocï¿½ nï¿½o se surpreende com facilidade, dorme bem ï¿½ noite e volta ao normal rapidamente depois de um desapontamento. Nï¿½o tem habitos nervosos e nï¿½o se distraï¿½ com facilidade.<br></font>";}
 elseif ($c <1 and $csuppress ==0){echo "
 <br><img align=left src='cancel.jpg'><font size=2 color=red><strong>PONTO A MELHORAR - Nervoso</strong></font>
 <font size=1>
-<br>Você está meio preocupado, tenso e não relaxa com facilidade. Tem tido hábitos nervosos e se distraí com facilidade. Fica muito cansado quando se esforça um pouco e não volta ao normal com facilidade depois de um desapontamento.</font>";}
+<br>Vocï¿½ estï¿½ meio preocupado, tenso e nï¿½o relaxa com facilidade. Tem tido hï¿½bitos nervosos e se distraï¿½ com facilidade. Fica muito cansado quando se esforï¿½a um pouco e nï¿½o volta ao normal com facilidade depois de um desapontamento.</font>";}
 
 //CERTEZA X INCERTEZA
 if ($d >0 and $dsuppress ==0){echo "
-<br><img align=left src='good.jpg'><font size=2 color=green><strong>PONTO POSITIVO - Certeza, consistência</strong></font>
+<br><img align=left src='good.jpg'><font size=2 color=green><strong>PONTO POSITIVO - Certeza, consistï¿½ncia</strong></font>
 <font size=1>
-<br>Você é confiável e confia em sí próprio, tem um temperamento equilibrado e sabe o que está fazendo. Você pensa logicamente, tem consciência dos valores, é responsável e pode conter-se se quiser.<br></font>";}
+<br>Vocï¿½ ï¿½ confiï¿½vel e confia em sï¿½ prï¿½prio, tem um temperamento equilibrado e sabe o que estï¿½ fazendo. Vocï¿½ pensa logicamente, tem consciï¿½ncia dos valores, ï¿½ responsï¿½vel e pode conter-se se quiser.<br></font>";}
 elseif ($d <1 and $dsuppress ==0){echo "
 <br><img align=left src='cancel.jpg'><font size=2 color=red><strong>PONTO A MELHORAR - Incerto, impulsivo, inconsistente</strong></font>
 <font size=1>
-<br>Você está sem auto-confiança, e imprevisível. Têm mudado de idéia sem razão aparente e não tem conseguido se conter muito.<br></font>";}
+<br>Vocï¿½ estï¿½ sem auto-confianï¿½a, e imprevisï¿½vel. Tï¿½m mudado de idï¿½ia sem razï¿½o aparente e nï¿½o tem conseguido se conter muito.<br></font>";}
 
 //ATIVO X INATIVO
 if ($e >0 and $esuppress ==0){echo "
 <br><img align=left src='good.jpg'><font size=2 color=green><strong>PONTO POSITIVO - Ativo, em movimento</strong></font>
 <font size=1>
-<br>Você tem vigor e tem uma grande variedade de interesses e atividades. É energico, toma responsabilidade e tem iniciativa. É atento, tem muito o que fazer, seus dias estão cheios e não espera os outros te empurrarem, você toma a atitude.<br></font>";}
+<br>Vocï¿½ tem vigor e tem uma grande variedade de interesses e atividades. ï¿½ energico, toma responsabilidade e tem iniciativa. ï¿½ atento, tem muito o que fazer, seus dias estï¿½o cheios e nï¿½o espera os outros te empurrarem, vocï¿½ toma a atitude.<br></font>";}
 elseif ($e <1 and $esuppress ==0){echo "
 <br><img align=left src='cancel.jpg'><font size=2 color=red><strong>PONTO A MELHORAR - Inativo, Sem movimento</strong></font>
 <font size=1>
-<br>Você está tendo uma atitude mais passiva, falta iniciativa e a preguiça atrapalha. Tem sido mais reservado. Você está com tendência à esperar que algo aconteça e evitar a responsabilidade. Não tem tido muito o que fazer e a agenda não é muito cheia. <a href='http://www.dianeticabrasil.com.br/?url=prod/dianetica#dvd' target=_parent>INDICAÇÃO: DVD DIANÉTICA</a><br></font>";}
+<br>Vocï¿½ estï¿½ tendo uma atitude mais passiva, falta iniciativa e a preguiï¿½a atrapalha. Tem sido mais reservado. Vocï¿½ estï¿½ com tendï¿½ncia ï¿½ esperar que algo aconteï¿½a e evitar a responsabilidade. Nï¿½o tem tido muito o que fazer e a agenda nï¿½o ï¿½ muito cheia.<br></font>";}
 
 //CAPAZ X INIBIDO
 if ($f >0 and $fsuppress ==0){echo "
 <br><img align=left src='good.jpg'><font size=2 color=green><strong>PONTO POSITIVO - Capaz, aberto, agressivo</strong></font>
 <font size=1>
-<br>Você é auto-confiante. Você é aberto, e tem boa idéia das suas próprias capacidades. Expressa livremente opiniões.<br></font>";}
+<br>Vocï¿½ ï¿½ auto-confiante. Vocï¿½ ï¿½ aberto, e tem boa idï¿½ia das suas prï¿½prias capacidades. Expressa livremente opiniï¿½es.<br></font>";}
 elseif ($f <1 and $fsuppress ==0){echo "
 <br><img align=left src='cancel.jpg'><font size=2 color=red><strong>PONTO A MELHORAR - Inibido, submisso</strong></font>
 <font size=1>
-<br>Você tem duvidado da sua própria capacidade, está inibido. Tem escondido os sentimentos e já foi parado muitas vezes pelos outros. Tem mantido as opiniões para sí próprio.<br></font>";}
+<br>Vocï¿½ tem duvidado da sua prï¿½pria capacidade, estï¿½ inibido. Tem escondido os sentimentos e jï¿½ foi parado muitas vezes pelos outros. Tem mantido as opiniï¿½es para sï¿½ prï¿½prio.<br></font>";}
 
 //CAUSA X EFEITO
 if ($g >0 and $gsuppress ==0){echo "
-<br><img align=left src='good.jpg'><font size=2 color=green><strong>PONTO POSITIVO - Responsável, objetivo, causa</strong></font>
+<br><img align=left src='good.jpg'><font size=2 color=green><strong>PONTO POSITIVO - Responsï¿½vel, objetivo, causa</strong></font>
 <font size=1>
-<br>Extrovertido, vê o que causou e admite ter causado sem culpa. Toma decisões sensatas e pode ver o ponto de vista dos outros. É imparcial e não é ciumento, pode tomar decisões se baseando nos fatos e é capaz de iniciativa. É lógico e científico.<br></font>";}
+<br>Extrovertido, vï¿½ o que causou e admite ter causado sem culpa. Toma decisï¿½es sensatas e pode ver o ponto de vista dos outros. ï¿½ imparcial e nï¿½o ï¿½ ciumento, pode tomar decisï¿½es se baseando nos fatos e ï¿½ capaz de iniciativa. ï¿½ lï¿½gico e cientï¿½fico.<br></font>";}
 elseif ($g <1 and $gsuppress ==0){echo "
-<br><img align=left src='cancel.jpg'><font size=2 color=red><strong>PONTO A MELHORAR - Irresponsável, em efeito</strong></font>
+<br><img align=left src='cancel.jpg'><font size=2 color=red><strong>PONTO A MELHORAR - Irresponsï¿½vel, em efeito</strong></font>
 <font size=1>
-<br>Você está introvertido, pensando que os demais estão contra você. Tem coisa sobre os quais você prefere não falar no momento e evita grandes responsabilidades. Tem tomado decisões baseadas mais na emoção do que na razão.<br></font>";}
+<br>Vocï¿½ estï¿½ introvertido, pensando que os demais estï¿½o contra vocï¿½. Tem coisa sobre os quais vocï¿½ prefere nï¿½o falar no momento e evita grandes responsabilidades. Tem tomado decisï¿½es baseadas mais na emoï¿½ï¿½o do que na razï¿½o.<br></font>";}
 
-//ESTIMAÇÃO X CRÍTICA
+//ESTIMAï¿½ï¿½O X CRï¿½TICA
 if ($h >0 and $hsuppress ==0){echo "
-<br><img align=left src='good.jpg'><font size=2 color=green><strong>PONTO POSITIVO - Lógico, estimação correta</strong></font>
+<br><img align=left src='good.jpg'><font size=2 color=green><strong>PONTO POSITIVO - Lï¿½gico, estimaï¿½ï¿½o correta</strong></font>
 <font size=1>
-<br>Não é difícil de agradar, pensa bem das pessoas e não suspeita o tempo todo. Compreende os demais e pode criticar e aceitar crítica. Aceita os outros como são e se não pode fazer o  que quer, arranja um substituto.<br></font>";}
+<br>Nï¿½o ï¿½ difï¿½cil de agradar, pensa bem das pessoas e nï¿½o suspeita o tempo todo. Compreende os demais e pode criticar e aceitar crï¿½tica. Aceita os outros como sï¿½o e se nï¿½o pode fazer o  que quer, arranja um substituto.<br></font>";}
 elseif ($h <1 and $hsuppress ==0){echo "
-<br><img align=left src='cancel.jpg'><font size=2 color=red><strong>PONTO A MELHORAR - Muito crítico</strong></font>
+<br><img align=left src='cancel.jpg'><font size=2 color=red><strong>PONTO A MELHORAR - Muito crï¿½tico</strong></font>
 <font size=1>
-<br>Você está intolerante e suspeita dos demais. Não tem tido muito tato e fica ressentido facilmente.<br></font>";}
+<br>Vocï¿½ estï¿½ intolerante e suspeita dos demais. Nï¿½o tem tido muito tato e fica ressentido facilmente.<br></font>";}
 
 //APRECIATIVO X DESACORDO
 if ($i >0 and $isuppress ==0){echo "
 <br><img align=left src='good.jpg'><font size=2 color=green><strong>PONTO POSITIVO - Apreciativo, empatia</strong></font>
 <font size=1>
-<br>Você é amigável e cortes, responde amavelmante à necessidades dos outros e tem consideração pelos demais. É verdadeiro e pode ver como os outros se sentem em determinadas situações.<br></font>";}
+<br>Vocï¿½ ï¿½ amigï¿½vel e cortes, responde amavelmante ï¿½ necessidades dos outros e tem consideraï¿½ï¿½o pelos demais. ï¿½ verdadeiro e pode ver como os outros se sentem em determinadas situaï¿½ï¿½es.<br></font>";}
 elseif ($i <1 and $isuppress ==0){echo "
 <br><img align=left src='cancel.jpg'><font size=2 color=red><strong>PONTO A MELHORAR - Falta de acordo</strong></font>
 <font size=1>
-<br>Não tem feito amigos com facilidade e não tem pensado muito nas necessidades e nos sentimentos dos demais.<br></font>";}
+<br>Nï¿½o tem feito amigos com facilidade e nï¿½o tem pensado muito nas necessidades e nos sentimentos dos demais.<br></font>";}
 
-//COMUNICATIVO X RETRAÍDO
+//COMUNICATIVO X RETRAï¿½DO
 if ($j >0 and $jsuppress ==0){echo "
 <br><img align=left src='good.jpg'><font size=2 color=green><strong>PONTO POSITIVO - Comunicativo</strong></font>
 <font size=1>
-<br>Você é expansivo e acolhedor, amigável e é uma ótima companhia, tem muitos amigos e posses. É cordial e expressa opiniões livremente.<br></font>";}
+<br>Vocï¿½ ï¿½ expansivo e acolhedor, amigï¿½vel e ï¿½ uma ï¿½tima companhia, tem muitos amigos e posses. ï¿½ cordial e expressa opiniï¿½es livremente.<br></font>";}
 elseif ($j <1 and $jsuppress ==0){echo "
-<br><img align=left src='cancel.jpg'><font size=2 color=red><strong>PONTO A MELHORAR - Retraído</strong></font>
+<br><img align=left src='cancel.jpg'><font size=2 color=red><strong>PONTO A MELHORAR - Retraï¿½do</strong></font>
 <font size=1>
-<br>Você tem sido mais individualizado e introvertido. E tem escondido os seus sentimentos. <a href='http://www.dianeticabrasil.com.br/?url=prod/dianetica#dvd' target=_parent>INDICAÇÃO: DVD DIANÉTICA.</a><br></font>";}
+<br>Vocï¿½ tem sido mais individualizado e introvertido. E tem escondido os seus sentimentos.<br></font>";}
 
 //SINDROMES
 include "avaliador2.php";
