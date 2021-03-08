@@ -1,6 +1,7 @@
 <?php
 //CONFIGURAÇÃO
 
+//Raiz DO TESTE com barra no final
 $root = 'https://dianeticabrasil.com.br/teste/';
 
 //BUSCA AS VARIÁVEIS
