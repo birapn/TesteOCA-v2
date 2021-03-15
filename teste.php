@@ -1,7 +1,6 @@
 <?php
 	include "buscavars.php";
 	include "header.php";
-	$i = $_POST['R$i'];
 
 	echo"
 	<form action=resultado.php method=post>
@@ -13,15 +12,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você faz observações ou acusações impensadas que mais tarde lamenta?</h1>
 				<div>
 					<div class='form-check form-check-inline '>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R1' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R1' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R1' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -32,15 +31,15 @@
 				<h1 class=' fs-4 fw-bold ' >Permanece sereno quando os outros estão nervosos?</h1>
 				<div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R2' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R2' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R2' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -51,15 +50,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você consulta horários de trens, listas telefônicas ou dicionários só por prazer?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R3' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R3' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R3' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -70,15 +69,15 @@
 				<h1 class=' fs-4 fw-bold ' >Quando alguém lhe pede para tomar uma decisão, você é influenciado pelo fato de gostar ou não da pessoa envolvida?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R4' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R4' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R4' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -89,15 +88,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você pretende ter dois filhos ou menos embora a sua saúde e renda lhe permitam ter mais?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R5' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R5' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R5' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -108,15 +107,15 @@
 				<h1 class=' fs-4 fw-bold ' >Tem às vezes contrações nos músculos sem nenhuma razão lógica para isso?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R6' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R6' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R6' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -127,15 +126,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você preferiria estar em uma posição em que não tivesse a responsabilidade de tomar decisões?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R7' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R7' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R7' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -146,15 +145,15 @@
 				<h1 class=' fs-4 fw-bold ' >Outras pessoas consideram que as suas ações são imprevisíveis?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R8' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R8' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R8' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -165,15 +164,15 @@
 				<h1 class=' fs-4 fw-bold ' >Pensa que se deveria gastar mais dinheiro em segurança social?</h1> 
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R9' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R9' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R9' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -184,15 +183,15 @@
 				<h1 class=' fs-4 fw-bold ' >Tem muito interesse pelas outras pessoas?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R10' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R10' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R10' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -203,15 +202,15 @@
 				<h1 class=' fs-4 fw-bold ' >A sua voz é monótona em vez de ter um tom variável?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R11' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R11' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R11' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -221,15 +220,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você normalmente deixa que seja a outra pessoa que comece a conversa?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R12' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R12' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R12' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -240,15 +239,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você está prontamente interessado na conversa das outras pessoas?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R13' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R13' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R13' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -259,15 +258,15 @@
 				<h1 class=' fs-4 fw-bold ' >A idéia de causar dor a animais de caça ou peixes impediria você de caçar ou pescar?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R14' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R14' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R14' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -278,15 +277,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você tem um comportamento impulsivo com frequência?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R15' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R15' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R15' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -297,15 +296,15 @@
 				<h1 class=' fs-4 fw-bold ' >Fala devagar?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R16' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R16' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R16' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -316,15 +315,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você geralmente se preocupa com a necessidade de proteger a sua saúde?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R17' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R17' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R17' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -335,15 +334,15 @@
 				<h1 class=' fs-4 fw-bold ' >Uma ação inesperada faz com que os seus músculos se contraiam?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R18' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R18' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R18' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -354,15 +353,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você normalmente é atencioso quando exige algo dos seus funcionários, parentes ou alunos?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R19' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R19' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R19' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -373,15 +372,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você acha que poderia fazer um 'julgamento rápido' que seja válido?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R20' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R20' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R20' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -392,15 +391,15 @@
 				<h1 class=' fs-4 fw-bold ' >Os seus fracassos passados ainda o preocupam?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R21' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R21' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R21' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -411,15 +410,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você percebe que fica hiperativo por vários dias?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R22' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R22' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R22' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -430,15 +429,15 @@
 				<h1 class=' fs-4 fw-bold ' >Fica ressentido pelos esforços dos outros quando lhe dizem o que fazer?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R23' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R23' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R23' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -449,15 +448,15 @@
 				<h1 class=' fs-4 fw-bold ' >Normalmente é difícil para você 'admitir que errou e assumir a culpa'?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R24' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R24' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R24' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -468,15 +467,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você tem um pequeno círculo de amigos íntimos em vez de um grande número de amigos e conhecidos?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R25' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R25' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R25' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -487,15 +486,15 @@
 				<h1 class=' fs-4 fw-bold ' >A sua vida é uma luta constante pela sobrevivência?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R26' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R26' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R26' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -506,15 +505,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você canta ou assobia com frequência só por diversão?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R27' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R27' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R27' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -525,15 +524,15 @@
 				<h1 class=' fs-4 fw-bold ' >Os seus amigos o consideram afetuoso?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R28' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R28' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R28' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -544,15 +543,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você preferiria dar ordens ao invés de recebê-las?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R29' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R29' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R29' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -563,15 +562,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você gosta de contar às pessoas o último escândalo sobre os seus colegas?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R30' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R30' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R30' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -582,15 +581,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você poderia concordar com disciplina rígida?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R31' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R31' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R31' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -601,15 +600,15 @@
 				<h1 class=' fs-4 fw-bold ' >A idéia de começar tudo de novo o preocupa muito?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R32' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R32' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R32' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -620,15 +619,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você faz esforços para fazer os outros rirem ou sorrirem?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R33' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R33' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R33' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -639,15 +638,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você acha fácil expressar as suas emoções?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R34' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R34' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R34' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -658,15 +657,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você evita reclamar quando a outra pessoa chega atrasada a um encontro?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R35' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R35' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R35' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -677,15 +676,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você às vezes é considerado pelos outros como 'desmancha-prazeres'?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R36' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R36' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R36' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -696,15 +695,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você considera que existem pessoas que são definitivamente hostis e agem contra você?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R37' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R37' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R37' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -715,15 +714,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você admitiria que está errado só para 'manter a paz'?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R38' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R38' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R38' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -735,15 +734,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você sente verdadeiro afeto só por algumas pessoas?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R39' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R39' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R39' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -754,15 +753,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você raramente se sente feliz a menos que tenha uma razão especial?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R40' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R40' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R40' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -773,15 +772,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você 'circula por aí' em uma reunião social?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R41' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R41' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='41' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -792,15 +791,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você toma precauções razoáveis para evitar acidentes?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R42' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R42' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R42' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -811,15 +810,15 @@
 				<h1 class=' fs-4 fw-bold ' >A ideia de falar perante outras pessoas deixa você nervoso?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R43' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R43' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R43' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -830,15 +829,15 @@
 				<h1 class=' fs-4 fw-bold ' >Se visse um artigo em uma loja que está etiquetado abaixo do preço correto por engano, tentaria obtê-lo por esse preço?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R44' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R44' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R44' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -849,15 +848,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você sente muitas vezes que as pessoas estão olhando para você ou falando de você pelas costas?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R45' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R45' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R45' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -868,15 +867,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você constantemente se mete em problemas?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R46' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R46' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R46' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -887,15 +886,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você tem algum medo ou ódio em particular?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R47' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R47' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R47' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -906,15 +905,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você prefere ser espectador em vez de participar ativamente em um esporte?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R48' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R48' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R48' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -926,15 +925,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você acha fácil ser imparcial?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R49' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R49' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R49' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -945,15 +944,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você mantém um comportamento cortês claramente estabelecido perante os outros membros da sua família?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R50' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R50' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R50' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -964,15 +963,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você pode iniciar uma conversa em uma reunião social?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R51' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R51' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R51' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -983,15 +982,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você compraria 'a crédito' na esperança de poder manter os pagamentos?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R52' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R52' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R52' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1002,15 +1001,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você fica transtornado por algum tempo quando ocorre alguma coisa inesperada, como um acidente ou algum outro acontecimento perturbador?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R53' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R53' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R53' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1021,15 +1020,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você leva em conta o bem de todos os interessados em vez de pensar só nas suas vantagens pessoais?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R54' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R54' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R54' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1040,15 +1039,15 @@
 				<h1 class=' fs-4 fw-bold ' >Ao ouvir uma palestra tem às vezes a ideia de que o orador está se referindo exclusivamente a você?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R55' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R55' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R55' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1059,15 +1058,15 @@
 				<h1 class=' fs-4 fw-bold ' >O 'barulho exterior' raramente interfere na sua concentração?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R56' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R56' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R56' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1078,15 +1077,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você geralmente está 'em dia' em relação aos assuntos cotidianos?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R57' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R57' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R57' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1097,15 +1096,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você consegue planejar e trabalhar confiantemente para realizar algo em um prazo de 6 meses?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R58' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R58' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R58' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1116,15 +1115,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você considera que o sistema moderno de 'prisões sem grades' está condenado ao fracasso?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R59' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R59' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R59' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1135,15 +1134,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você tem tendência a ser descuidado?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R60' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R60' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R60' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1154,15 +1153,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você às vezes tem a sensação de que a vida é um sonho em que tudo parece irreal?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R61' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R61' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R61' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1173,15 +1172,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você se recupera rapidamente do efeito das más notícias?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R62' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R62' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R62' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1192,15 +1191,15 @@
 				<h1 class=' fs-4 fw-bold ' >Quando você critica, tenta encorajar ao mesmo tempo?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R63' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R63' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R63' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1211,15 +1210,15 @@
 				<h1 class=' fs-4 fw-bold ' >Normalmente você é considerado 'frio'?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R64' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R64' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R64' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1230,15 +1229,15 @@
 				<h1 class=' fs-4 fw-bold ' >As suas opiniões não são suficientemente importantes para que sejam ditas a outras pessoas?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R65' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R65' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R65' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1249,15 +1248,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você é tão seguro de si mesma que às vezes irrita os outros?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R66' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R66' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R66' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1268,15 +1267,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você mantém um 'contato estreito' com objetos seus que emprestou a amigos?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R67' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R67' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R67' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1287,15 +1286,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você se diverte com atividades que você mesmo escolheu?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R68' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R68' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R68' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1306,15 +1305,15 @@
 				<h1 class=' fs-4 fw-bold ' >A música emotiva afeta muito você?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R69' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R69' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R69' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1325,15 +1324,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você condena totalmente uma pessoa por ela ser sua rival ou oponente em um certo aspecto das suas relações com ela?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R70' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R70' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R70' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1344,15 +1343,15 @@
 				<h1 class=' fs-4 fw-bold ' >Com frequência você 'fica pensando' sobre morte, doença, dor e desgostos?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R71' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R71' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R71' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1363,15 +1362,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você fica perturbado com a ideia de perder a dignidade?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R72' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R72' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R72' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1382,15 +1381,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você sempre fica guardando coisas que 'podem ser úteis'?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R73' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R73' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R73' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1401,15 +1400,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você criticaria as falhas e apontaria os pontos negativos do caráter ou de algum trabalho feito por alguém?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R74' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R74' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R74' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1420,15 +1419,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você aprecia abertamente as coisas belas?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R75' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R75' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R75' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1439,15 +1438,15 @@
 				<h1 class=' fs-4 fw-bold ' >Às vezes você dá objetos que, na verdade, não lhe pertencem?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R76' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R76' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R76' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1458,15 +1457,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você cumprimenta as pessoas efusivamente?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R77' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R77' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R77' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1477,15 +1476,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você fica pensando com frequência nas desgraças passadas?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R78' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R78' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R78' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1496,15 +1495,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você às vezes é considerado contundente nas suas ações ou opiniões?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R79' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R79' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R79' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1515,15 +1514,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você aceita críticas facilmente e sem ressentimento?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R80' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R80' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R80' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1534,15 +1533,15 @@
 				<h1 class=' fs-4 fw-bold ' >Quando tenta descansar, não se deixa perturbar pelos 'barulhos de fundo'?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R81' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R81' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R81' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1553,15 +1552,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você tem tendência para ser ciumento?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R82' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R82' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R82' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1572,15 +1571,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você tende a adiar fazer coisas e depois descobre que é tarde demais?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R83' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R83' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R83' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1591,15 +1590,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você prefere acatar os desejos dos outros em vez de tentar fazer as coisas do seu jeito?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R84' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R84' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R84' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1610,15 +1609,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você acha fácil começar um projeto?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R85' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R85' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R85' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1629,15 +1628,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você rói unhas ou morde a ponta do lápis?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R86' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R86' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R86' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1648,15 +1647,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você 'aumenta o volume' das suas emoções só para criar um efeito?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R87' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R87' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R87' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1667,15 +1666,15 @@
 				<h1 class=' fs-4 fw-bold ' >Se estivéssemos invadindo outro país, você se sentiria compassivo pelos pacifistas nesse país?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R88' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R88' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R88' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1686,15 +1685,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você é melindroso com algumas questões pessoais??</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R89' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R89' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R89' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1705,15 +1704,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você tem poucos interesses e atividades que são de sua própria escolha?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R90' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R90' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R90' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1724,15 +1723,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você às vezes tem um pensamento que fica rodando na cabeça por vários dias?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R91' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R91' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R91' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1743,15 +1742,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você come devagar?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R92' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R92' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R92' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1762,15 +1761,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você consegue ser uma influência estabilizadora quando outros entram em pânico?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R93' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R93' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R93' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1782,15 +1781,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você pararia para descobrir se uma pessoa precisa de ajuda mesmo que ela não tivesse pedido diretamente?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R94' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R94' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R94' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1801,15 +1800,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você tem ideias preconcebidas a favor da sua escola, universidade, clube ou equipe, etc.?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R95' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R95' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R95' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1820,15 +1819,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você paga as suas dívidas e mantém as suas promessas quando é possível?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R96' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R96' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R96' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1839,15 +1838,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você dorme bem?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R97' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R97' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R97' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1858,15 +1857,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você usaria castigo corporal em uma criança de dez anos que se recusasse a  obedecer a você?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R98' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R98' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R98' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1877,15 +1876,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você prefere ter um papel passivo em qualquer clube ou organização a que pertença?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R99' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R99' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R99' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1896,15 +1895,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você é lógico e científico na sua forma de pensar?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R100' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R100' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R100' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1915,15 +1914,15 @@
 				<h1 class=' fs-4 fw-bold ' >A juventude de hoje tem mais oportunidades do que a da geração passada?</h1>
 				<div>
 					<div class='form-check form-check-inline '>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R101' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R101' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R101' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1934,15 +1933,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você joga fora coisas e só depois descobre que precisa delas?</h1>
 				<div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R102' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R102' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R102' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1953,15 +1952,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você desistiria facilmente de um determinado rumo se esse lhe estivesse causando uma quantidade considerável de inconvenientes?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R103' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R103' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R103' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1972,15 +1971,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você se 'enche de entusiasmo' apenas por alguns assuntos?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R104' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R104' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R104' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -1991,15 +1990,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você raramente suspeita das ações dos outros?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R105' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R105' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R105' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2010,15 +2009,15 @@
 				<h1 class=' fs-4 fw-bold ' >Às vezes você se pergunta se alguém realmente se importa com você?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R106' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R106' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R106' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2029,15 +2028,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você recusa responsabilidade por duvidar da sua aptidão para lidar com o assunto?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R107' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R107' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R107' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2048,15 +2047,15 @@
 				<h1 class=' fs-4 fw-bold ' >Às vezes você se sente compelido a repetir alguma coisa ou notícia interessante?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R108' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R108' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R108' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2067,15 +2066,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você tende a exagerar alguma reclamação justificada?</h1> 
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R109' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R109' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R109' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2086,15 +2085,15 @@
 				<h1 class=' fs-4 fw-bold ' >A sua expressão facial é mais variada do que fixa?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R110' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R110' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R110' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2105,15 +2104,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você geralmente precisa justificar ou reforçar uma opinião depois de tê-la dado?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R111' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R111' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R111' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2123,15 +2122,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você admira aberta e sinceramente a beleza em outras pessoas?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R112' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R112' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R112' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2142,15 +2141,15 @@
 				<h1 class=' fs-4 fw-bold ' >Seria necessário um verdadeiro esforço da sua parte para que considerasse o assunto do suicídio?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R113' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R113' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R113' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2161,15 +2160,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você se considera dinâmico na sua atitude em relação à vida?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R114' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R114' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R114' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2180,15 +2179,15 @@
 				<h1 class=' fs-4 fw-bold ' >Um desacordo afetaria o seu relacionamento geral com outra pessoa?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R115' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R115' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R115' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2199,15 +2198,15 @@
 				<h1 class=' fs-4 fw-bold ' >Um pequeno fracasso da sua parte raramente o incomoda?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R116' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R116' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R116' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2218,15 +2217,15 @@
 				<h1 class=' fs-4 fw-bold ' >Às vezes você sente que fala demais?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R117' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R117' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R117' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2237,15 +2236,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você sorri muito?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R118' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R118' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R118' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2256,15 +2255,15 @@
 				<h1 class=' fs-4 fw-bold ' >É fácil agradar você?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R119' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R119' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R119' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2275,15 +2274,15 @@
 				<h1 class=' fs-4 fw-bold ' >Quando você encontra oposição direta, ainda assim segue em frente em vez de se dar por vencido?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R120' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R120' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R120' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2294,15 +2293,15 @@
 				<h1 class=' fs-4 fw-bold ' >Mesmo que a distância não seja muito grande, você ainda assim preferiria ir de carro em vez de ir a pé?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R121' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R121' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R121' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2313,15 +2312,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você fica incomodado pelo barulho do vento ou com o rangido que a casa faz de noite?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R122' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R122' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R122' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2332,15 +2331,15 @@
 				<h1 class=' fs-4 fw-bold ' >A sua opinião é influenciada por olhar para as coisas desde o ponto de vista das suas experiências, ocupação ou educação?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R123' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R123' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R123' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2351,15 +2350,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você comete gafes com freqüência?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R124' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R124' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R124' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2370,15 +2369,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você suspeita das pessoas que lhe pedem dinheiro emprestado?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R125' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R125' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R125' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2389,15 +2388,15 @@
 				<h1 class=' fs-4 fw-bold ' >As suas decisões são influenciadas por interesses pessoais?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R126' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R126' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R126' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2408,15 +2407,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você pode ficar bastante entusiasmado com 'coisas pequenas e simples'?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R127' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R127' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R127' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2427,15 +2426,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você frequentemente age de uma forma, embora o seu próprio bom senso lhe indique o contrário?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R128' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R128' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R128' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2446,15 +2445,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você é a favor da discriminação racial e da diferença de classes?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R129' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R129' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R129' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2465,15 +2464,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você tem consciência de algum maneirismo físico tal como puxar o cabelo, nariz, orelhas, ou coisa parecida?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R130' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R130' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R130' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2484,15 +2483,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você pode se adaptar rapidamente e tirar proveito de novas situações ainda que estas possam ser difíceis?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R131' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R131' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R131' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2503,15 +2502,15 @@
 				<h1 class=' fs-4 fw-bold ' >Alguns barulhos o fazem ficar irritado?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R132' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R132' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R132' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2522,15 +2521,15 @@
 				<h1 class=' fs-4 fw-bold ' >Quando você quer, pode ver as coisas sobre o ponto de vista de outras pessoas?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R133' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R133' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R133' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2541,15 +2540,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você vai dormir quando quer, em vez de seguir um horário exato?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R134' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R134' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R134' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2560,15 +2559,15 @@
 				<h1 class=' fs-4 fw-bold ' >As 'pequenas fraquezas' dos outros fazem você perder a paciência?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R135' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R135' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R135' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2579,15 +2578,15 @@
 				<h1 class=' fs-4 fw-bold ' >As crianças o irritam?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R136' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R136' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R136' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2598,15 +2597,15 @@
 				<h1 class=' fs-4 fw-bold ' >É menos conversador que os seus colegas?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R137' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R137' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R137' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2617,15 +2616,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você normalmente realiza tarefas pronta e sistematicamente?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R138' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R138' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R138' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2637,15 +2636,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você ajudaria um companheiro de viagem em vez de deixar isso aos serviços oficiais?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R139' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R139' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R139' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2656,15 +2655,15 @@
 				<h1 class=' fs-4 fw-bold ' >Quando vota, você opta diretamente pelo partido em vez de estudar os candidatos e as propostas?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R140' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R140' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R140' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2675,15 +2674,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você com frequência fica pensando nas suas doenças ou experiências dolorosas passadas?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R141' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R141' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R141' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2694,15 +2693,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você se sente muito incomodado em ambientes desordenados?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R142' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R142' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R142' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2713,15 +2712,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você geralmente critica um espetáculo que vê ou um livro que lê?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R143' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R143' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R143' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2732,15 +2731,15 @@
 				<h1 class=' fs-4 fw-bold ' >Quando você conta um incidente divertido, pode imitar facilmente os maneirismos ou o modo de falar do incidente original?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R144' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R144' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R144' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2751,15 +2750,15 @@
 				<h1 class=' fs-4 fw-bold ' >Em assuntos sobre os quais você não é perito, as suas idéias são suficientemente importantes para ser compartilhada com outros?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R145' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R145' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R145' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2770,15 +2769,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você tem tendência para arrumar a desordem na casa dos outros?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R146' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R146' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R146' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2789,15 +2788,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você pode aceitar uma derrota facilmente sem a necessidade de 'engolir o seu desapontamento'?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R147' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R147' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R147' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2808,15 +2807,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você se sente deprimido com freqüência?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R148' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R148' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R148' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2828,15 +2827,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você se sente incomodado na companhia de crianças?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R149' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R149' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R149' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2847,15 +2846,15 @@
 				<h1 class=' fs-4 fw-bold ' >Fica frustrado por não ser capaz de fazer algo em vez de procurar uma atividade ou sistema alternativo?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R150' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R150' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R150' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2866,15 +2865,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você às vezes é completamente incapaz de entrar no espírito das coisas?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R151' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R151' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R151' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2885,15 +2884,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você raramente expressa os seus ressentimentos?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R152' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R152' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R152' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2904,15 +2903,15 @@
 				<h1 class=' fs-4 fw-bold ' >Trabalha em 'impulsos', estando relativamente inativo e depois furiosamente ativo por um dia ou dois?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R153' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R153' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R153' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2923,15 +2922,15 @@
 				<h1 class=' fs-4 fw-bold ' >A quantidade de trabalhos incompletos que tem em mãos incomoda você?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R154' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R154' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R154' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2942,15 +2941,15 @@
 				<h1 class=' fs-4 fw-bold ' >As pessoas gostam de estar na sua companhia?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R155' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R155' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R155' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2961,15 +2960,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você poderia permitir que alguém completasse as 'duas palavras finais' em palavras cruzadas sem interferir?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R156' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R156' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R156' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2980,15 +2979,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você leva em conta os pontos positivos da maioria das pessoas e raramente fala delas de forma depreciativa?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R157' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R157' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R157' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -2999,15 +2998,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você ri ou sorri com bastante facilidade?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R158' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R158' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R158' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3018,15 +3017,15 @@
 				<h1 class=' fs-4 fw-bold ' >É claro e enfático na voz e modos?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R159' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R159' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R159' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3037,15 +3036,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você é expansivo apenas para com os amigos?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R160' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R160' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R160' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3056,15 +3055,15 @@
 				<h1 class=' fs-4 fw-bold ' >Os seus interesses e áreas de conhecimento são tão importantes que lhe deixam pouco tempo para mais alguma coisa?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R161' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R161' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R161' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3075,15 +3074,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você gostaria de 'começar uma nova atividade' na área em que vive?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R162' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R162' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R162' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3094,15 +3093,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você tomaria as medidas necessárias para matar um animal para poupá-lo do sofrimento?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R163' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R163' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R163' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3113,15 +3112,15 @@
 				<h1 class=' fs-4 fw-bold ' >É fácil para você relaxar?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R164' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R164' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R164' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3132,15 +3131,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você raramente lamenta das desgraças e fracassos do passado?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R165' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R165' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R165' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3151,15 +3150,15 @@
 				<h1 class=' fs-4 fw-bold ' >A ideia do medo ou apreensão provoca reações físicas em você?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R166' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R166' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R166' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3170,15 +3169,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você pode confiar na decisão que tomou sobre uma situação emocional em que você esteja envolvido?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R167' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R167' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R167' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3189,15 +3188,15 @@
 				<h1 class=' fs-4 fw-bold ' >Outra pessoa poderia considerá-lo realmente ativo?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R168' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R168' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R168' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3208,15 +3207,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você acha difícil começar uma tarefa que necessita ser feita?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R169' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R169' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R169' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3227,15 +3226,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você se opõe ao 'sistema de liberdade condicional' para os criminosos?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R170' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R170' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R170' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3246,15 +3245,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você perde muito tempo com preocupações desnecessárias?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R171' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R171' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R171' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3265,15 +3264,15 @@
 				<h1 class=' fs-4 fw-bold ' >Em um desacordo, acha difícil compreender como a outra pessoa não consegue ver o seu ponto de vista e concordar com você?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R172' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R172' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R172' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3284,15 +3283,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você lida bem com os problemas da vida diária?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R173' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R173' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R173' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3303,15 +3302,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você normalmente é sincero com os outros?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R174' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R174' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R174' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3322,15 +3321,15 @@
 				<h1 class=' fs-4 fw-bold ' >Prefere 'esperar que uma coisa aconteça' em vez de causá-la?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R175' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R175' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R175' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3341,15 +3340,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você gasta demais em relação ao que ganha?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R176' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R176' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R176' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3360,15 +3359,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você pode correr um 'risco calculado' sem muita preocupação?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R177' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R177' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R177' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3379,15 +3378,15 @@
 				<h1 class=' fs-4 fw-bold ' >Se você se envolvesse em um leve acidente de carro, tomaria realmente o cuidado de reparar qualquer prejuízo que tenha causado?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R178' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R178' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R178' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3398,15 +3397,15 @@
 				<h1 class=' fs-4 fw-bold ' >Outros intimidam você?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R179' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R179' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R179' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3417,15 +3416,15 @@
 				<h1 class=' fs-4 fw-bold ' >Faz concessões aos seus amigos, enquanto com outros usaria um julgamento mais severo?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R180' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R180' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R180' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3436,15 +3435,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você pondera com freqüência sobre a sua própria inferioridade?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R181' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R181' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R181' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3455,15 +3454,15 @@
 				<h1 class=' fs-4 fw-bold ' >As pessoas criticam você para outras pessoas?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R182' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R182' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R182' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3474,15 +3473,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você fica envergonhado com uma saudação calorosa, tal como um beijo, um abraço ou um tapinha nas costas, quando feito em público?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R183' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R183' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R183' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3493,15 +3492,15 @@
 				<h1 class=' fs-4 fw-bold ' >Com freqüência deixa de fazer alguma coisa que quer por causa do que outras pessoas querem?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R184' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R184' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R184' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3512,15 +3511,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você às vezes tem certeza das suas opiniões sobre um assunto, ainda que não seja um perito?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R185' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R185' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R185' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3531,15 +3530,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você muitas vezes se encontra 'indo em todas as direções ao mesmo tempo?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R186' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R186' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R186' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3550,15 +3549,15 @@
 				<h1 class=' fs-4 fw-bold ' >Os seus conhecidos parecem pensar que você é mais capaz do que você pensa que é?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R187' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R187' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R187' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3569,15 +3568,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você acha a idéia da morte ou mesmo a lembrança da morte repugnante?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R188' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R188' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R188' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3588,15 +3587,15 @@
 				<h1 class=' fs-4 fw-bold ' >Tendo resolvido uma discussão, você continua a se sentir de mau humor por algum tempo?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R189' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R189' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R189' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3607,15 +3606,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você é amável no tom de voz, atitudes e expressão?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R190' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R190' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R190' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3626,15 +3625,15 @@
 				<h1 class=' fs-4 fw-bold ' >A vida parece um tanto vaga e irreal para você?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R191' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R191' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R191' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3645,15 +3644,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você costuma se sentir perturbado com o destino das vítimas de guerra e refugiados políticos?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R192' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R192' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R192' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3664,15 +3663,15 @@
 				<h1 class=' fs-4 fw-bold ' >'Simples conhecidos' recorrem a você para obter auxílio ou conselho sobre as dificuldades pessoais que eles têm?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R193' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R193' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R193' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3684,15 +3683,15 @@
 				<h1 class=' fs-4 fw-bold ' >Se perde um objeto, fica com a idéia que 'alguém deve ter roubado ou extraviado'?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R194' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R194' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R194' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3703,15 +3702,15 @@
 				<h1 class=' fs-4 fw-bold ' >Se pensasse que alguém suspeita de você e de suas ações, abordaria o assunto em vez de deixar que ele o resolvesse sozinho?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R195' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R195' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R195' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3722,15 +3721,15 @@
 				<h1 class=' fs-4 fw-bold ' >Ás vezes você acha que a sua idade está contra você (jovem demais ou velho demais)?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R196' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R196' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R196' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3741,15 +3740,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você tem períodos em que está triste e deprimido sem razão aparente?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R197' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R197' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R197' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3760,15 +3759,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você reclama das condições que tem de enfrentar na vida?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R198' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R198' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R198' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3779,15 +3778,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você tende a esconder os seus sentimentos?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R199' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R199' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R199' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
@@ -3798,15 +3797,15 @@
 				<h1 class=' fs-4 fw-bold ' >Você considera que tem muitos amigos calorosos?</h1>
 			   <div> 
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='+'>
+						<input class='form-check-input' type='radio' name='R200' value='+'>
 						<label class='form-check-label'>+</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='m'>
+						<input class='form-check-input' type='radio' name='R200' value='m'>
 						<label class='form-check-label' for='inlineRadio2'>M</label>
 					</div>
 					<div class='form-check form-check-inline'>
-						<input class='form-check-input' type='radio' name='R$i' value='-'>
+						<input class='form-check-input' type='radio' name='R200' value='-'>
 						<label class='form-check-label' for='inlineRadio2'>-</label>
 					</div>
 				</div>
