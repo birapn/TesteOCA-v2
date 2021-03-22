@@ -34,15 +34,17 @@ $j = 80;*/
 
 
 //1 -  FAZ O GRAFICO PARA MENSAGEM
-//include "grafico.php";
+include "grafico.php";
 
 //2 - PUXA OS CARTÕES
-//include "avaliador.php";
+include "avaliador.php";
 
 //3 - MANDA E-MAILS 
-//include "emails.php";
+include "emails.php";
+
 
 //CABEÇALHO
+include "head.php";
 include "header.php";
 
 //RESULTADO
