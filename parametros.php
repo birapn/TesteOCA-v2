@@ -1,3 +1,29 @@
+<?php
+//Geral
+$Link_Site="https://cdadianetica.com.br/";
+$Logo = "cancel.jpg";
+//Redes Sociais
+$Facebook="";
+$Google="";
+$Linkedin="";
+$Youtube="";
+
+// Header
+$nome_empresa="Dianética";
+$Subtitulo="Análise de Potencial Pessoal";
+
+
+// Rodapé do site 
+$Titulo1 ="NomeEmpresa";
+$texto="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.";
+
+$Titulo2 ="NomeEmpresa2";
+$Linha1 = "Email";
+$Linha2 = "Instagram";
+$Linha3 = "Endereço";
+$Linha4 = "Endereço 2";
+
+echo'
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -8,6 +34,9 @@
     <link rel="stylesheet" type="text/css" media="all" href="style.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-    <!--Links aqui embaixo!-->
-
+    <!-----------------------Links aqui embaixo!-------------------------->
+    <link rel="" href="">
+    <link rel="" href="">
 </head>
+';
+?>
