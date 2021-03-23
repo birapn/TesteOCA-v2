@@ -1,7 +1,11 @@
 <?php
 //Geral
 $Link_Site="https://cdadianetica.com.br/";
+
+//trocar o nome da imagem
 $Logo = "cancel.jpg";
+
+
 //Redes Sociais
 $Facebook="";
 $Google="";
