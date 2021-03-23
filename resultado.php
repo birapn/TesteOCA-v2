@@ -44,7 +44,7 @@ include "emails.php";
 
 
 //CABEÇALHO
-include "head.php";
+include "parametros.php";
 include "header.php";
 
 //RESULTADO
