@@ -7,6 +7,7 @@ $Logo = "cancel.jpg";
 
 
 //Redes Sociais
+//adiciona o link para as redes dentro dos "".
 $Facebook="";
 $Google="";
 $Linkedin="";
