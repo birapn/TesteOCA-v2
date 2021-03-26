@@ -6,8 +6,8 @@
     <form action='teste.php' method='post'>
         <div class="input-group">
             <span class="input-group-text">Nome e sobrenome:</span>
-            <input type="text" aria-label="First name" class="form-control" name='nome' placeholder="Ex:'João'" required>
-            <input type="text" aria-label="Last name" class="form-control" name='sobrenome' placeholder="Ex:'Silva'" required>
+            <input type="text" aria-label="First name" class="form-control" name='nome' placeholder="Ex: 'João'" required>
+            <input type="text" aria-label="Last name" class="form-control" name='sobrenome' placeholder="Ex: 'Silva'" required>
         </div>
         <!---->
         <div class="row">
@@ -42,16 +42,16 @@
         <!---->
         <div class="input-group mb-3">
             <span class="input-group-text">Cidade:</span>
-            <input type="text" class="form-control" placeholder="Ex:São Paulo" name="cidade" aria-describedby="basic-addon1">
+            <input type="text" class="form-control" placeholder="Ex: São Paulo" name="cidade" aria-describedby="basic-addon1">
         </div>
         <div class="input-group mb-3">
             <span class="input-group-text">Estado:</span>
-            <input type="text" class="form-control" placeholder="Ex:SP" name="uf" maxlength="2" aria-describedby="basic-addon1">
+            <input type="text" class="form-control" placeholder="Ex: 'SP'" name="uf" maxlength="2" aria-describedby="basic-addon1">
         </div>
         <!---->
         <div class="input-group mb-3">
             <span class="input-group-text">Telefone:</span>
-            <input type="text" class="form-control" placeholder="São Paulo" name="telefone" maxlength="11" aria-describedby="basic-addon1">
+            <input type="text" class="form-control" placeholder="(99)99999-9999" name="telefone" maxlength="11" aria-describedby="basic-addon1">
         </div>
         <!---->
         <div class="input-group mb-3">
